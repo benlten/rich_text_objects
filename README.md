@@ -81,22 +81,3 @@ python compute_text_projection.py  --dataset binary_waterbirds --device cuda:0 -
 python compute_use_specific_heads.py --model ViT-L-14 --dataset binary_waterbirds 
 ```
 
-### Spatial decomposition
-Please see a demo for the spatial decomposition of CLIP in `demo.ipynb`. 
-
-
-### Nearest neighbors search
-Please see the nearest neighbors search demo in `nns.ipynb`.
-
-### BibTeX
-
-```bibtex
-@inproceedings{
-      gandelsman2024interpreting,
-      title={Interpreting {CLIP}'s Image Representation via Text-Based Decomposition},
-      author={Yossi Gandelsman and Alexei A. Efros and Jacob Steinhardt},
-      booktitle={The Twelfth International Conference on Learning Representations},
-      year={2024},
-      url={https://openreview.net/forum?id=5Ca9sSzuDp}
-}
-```
